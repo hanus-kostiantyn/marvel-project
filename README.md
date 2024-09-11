@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Marvel Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A Marvel application built with React. This app fetches Marvel characters and comics data from the Marvel API and displays it to the user.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Characters Page:
 
-### `yarn start`
+- Random Character Component: Generate a random Marvel character with an image, name, and description.
+- Character List: View a list of Marvel characters with their images and names. Click on a character to see detailed information on the same page.
+- Load More Characters: Load additional characters by clicking the "Load More" button.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Comics Page:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Comics List: Displays a list of Marvel comics with images, names and prices.
+- Comic Details: Click on a comic to redirect to a new page with detailed information including image, name, description, number of pages, comic language and price.
+- Load More Comics: Load additional comics by clicking the "Load More" button.
 
-### `yarn test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- HTML, CSS (SCSS), JS
+- Marvel API
+- React Router
 
-### `yarn build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   git clone https://github.com/hanus-kostiantyn/marvel-project.git
+2. Navigate to the project directory:
+   cd marvel-project
+3. Install the dependencies:
+   npm install
+4. Create a .env file in the root directory and add your Marvel API key:
+   REACT_APP_MARVEL_API_KEY=your_api_key_here
+5. Start the development server:
+   npm start
+6. Open your browser and go to http://localhost:3000 to see the app in action. 	
+	
+## Usage
+- Characters Page: Use the random character generator to get a random Marvel character. Browse the list of characters and click on any character to view more details. Click the "Load More" button to load additional characters.
+- Comics Page: Browse the list of comics and click on any comic to view detailed information about it. Click the "Load More" button to load additional characters.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributing
+If you want to contribute to this project, please follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature).
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature/your-feature).
+Create a new Pull Request.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any questions or inquiries, please contact hanus.kostiantyn@gmail.com
